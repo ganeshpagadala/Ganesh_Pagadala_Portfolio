@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+}
+
+.headline {
+    background-color: azure;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between; /* left: contact info | right: buttons */
+    background-color: rgb(96, 73, 113);
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.navbuttons {
+    margin-top: 25px;
+}
+
+#contactbutton {
+        /* transform: translateX(710px); */
+        background-color: rgb(96, 73, 113);
+        border-width: 4px;
+        box-shadow: 1px 1px 3px 0.1px;
+        margin: 4px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 3px;
+        color: black;
+}
+#contactbutton:hover {
+    background-color: rgb(141, 102, 140);
+}
+
+#skillsbutton {
+        /* transform: translateX(710px); */
+        background-color: rgb(96, 73, 113);
+        border-width: 4px;
+        box-shadow: 1px 1px 3px 0.1px;
+        margin: 4px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 3px;
+        color: black;
+    }
+#skillsbutton:hover {
+    background-color: rgb(141, 102, 140);
+}
+
+#projectsbutton {
+        /* transform: translateX(710px); */
+        background-color: rgb(96, 73, 113);
+        border-width: 4px;
+        box-shadow: 1px 1px 3px 0.1px;
+        margin: 4px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 3px;
+        color: black;
+    
+        
+    }
+#projectsbutton:hover {
+    background-color: rgb(141, 102, 140);
+}
+
+#certificationsbutton {
+        /* transform: translateX(710px); */
+        background-color: rgb(96, 73, 113);
+        border-width: 4px;
+        box-shadow: 1px 1px 3px 0.1px;
+        margin: 4px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 3px;
+        color: black;
+    }
+#certificationsbutton:hover {
+    background-color: rgb(141, 102, 140);
+}
+
+
+.introheader {
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.namecard {
+        border-color: blue;
+        border: 4px;
+        h4 {
+        color: rgb(212, 205, 11);
+                }
+    }
+
+
+.imgbox {
+    width: 320px;
+    background: rgba(255, 255, 255, 0.05); 
+    border: 1px solid rgba(213, 17, 244, 0.2); 
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(216, 25, 216, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    align-content: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+
+
+.imgbox:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(217, 12, 232, 0.247);
+}
+
+
+.imgbox .img {
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.imgbox .heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0;
+}
+
+
+.imgbox .p1, .imgbox .p2 {
+    font-size: 14px;
+    color: #ccc;
+    margin: 4px 0;
+}
+
+
+.intro {
+    color: #ccc;
+    margin-right: 50px;
+
+}
+
+
+
+
+h3 {
+    color: blue;
+
+}
+.p1 {color: azure;}
+.p2 {color: brown;}
+
+
+
+.aboutme {
+    color: aliceblue;
+}
+
+.pic {
+    width: 300px;
+    border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin-top: 5px;
+}
+
+#skills {
+    color: aliceblue;
+}
+
+
+#projects {
+    color: aliceblue;
+}
+
+
+#certifications {
+    color: aliceblue;
+}
+
